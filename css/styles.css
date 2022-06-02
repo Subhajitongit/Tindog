@@ -1,0 +1,195 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight:900;
+    color: white;
+}
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feaIco {
+    color: #ef8172;
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.featDet {
+    font-weight: bold;
+    color: #8f8f8f;
+    margin-bottom: 10%;
+}
+
+.feaIco:hover {
+    color: #ff4c68;
+}
+
+.featHead {
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+    padding: 1.5% 2.5%;
+}
+
+.nav-item {
+    padding:0 18px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+#apple-download {
+    margin-right: 2%;
+}
+
+.navbar {
+    margin-bottom: 3.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.title-img {
+    height: 80%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    color: white;
+    font-weight: 900;
+    padding: 0 200px;
+}
+
+em {
+    color: white;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    padding: 20px;
+    width: 15%;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 30px;
+}
+
+.testi-img {
+    width: 17rem;
+    margin: 25px 45px;
+}
+
+.my-0 {
+    font-weight: 900;
+    font-family: "Ubuntu";
+}
+
+#pricing {
+    padding: 5% 15%;
+}
+
+.pri {
+    color: black;
+    font-weight: 700;
+}
+
+.pri-head {
+    font-weight: 900;
+    font-size: 350%;
+    font-family: "Ubuntu";
+}
+
+.pri-des {
+    color: grey;
+    margin-bottom: 35px;
+}
+
+@media(max-width:1210px) {
+    .title-img {
+        position: static;
+        transform:rotate(0);
+        margin-top: 5%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7%;
+}
+
+.cta-tit {
+    color:white;
+    font-weight: 900;
+    font-family: "Ubuntu";
+    font-size:350%;
+    margin-bottom: 2%;
+}
+
+.cta-but {
+    margin-right: 2%;
+    font-size: 120%;
+}
+
+.ctaapple {
+    font-size: 120%;
+}
+
+#footer {
+    text-align: center;
+    padding: 3%;
+}
+
+.ficon {
+    padding: 1% 2%;
+    font-size: 120%;
+}
+
+.ficon:hover {
+    cursor: pointer;
+    color: #ff4c68;
+}
+
+.fop {
+    font-weight: 700;
+    color: grey;
+}
